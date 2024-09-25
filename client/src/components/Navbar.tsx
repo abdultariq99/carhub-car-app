@@ -8,7 +8,7 @@ export const Navbar = () => {
                     <img className="w-24" src='/logo.svg' />
                 </li>
                 <li>
-                    <button className="ring-1 ring-primary-blue rounded-full bg-[#f2f2f2] w-24 h-8 flex items-center justify-center text-primary-blue">Sign in</button>
+                    <button className="ring-1 ring-primary-blue rounded-full bg-[#f2f2f2] w-24 h-8 flex items-center justify-center text-primary-blue cursor-pointer">Sign in</button>
                 </li>
             </ul>
         </nav>

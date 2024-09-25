@@ -1,6 +1,7 @@
 import './App.css'
 import { Hero } from './components/Hero'
 import { Navbar } from './components/Navbar'
+import { Catalogue } from './components/Catalogue'
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
     <main className='h-screen w-screen relative'>
       <Navbar />
       <Hero />
+      <Catalogue />
     </main>
   )
 }
