@@ -5,7 +5,7 @@ import { Navbar } from './components/Navbar'
 function App() {
   
   return (
-    <main className='h-screen w-screen'>
+    <main className='h-screen w-screen relative'>
       <Navbar />
       <Hero />
     </main>

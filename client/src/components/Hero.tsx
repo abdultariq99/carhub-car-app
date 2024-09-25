@@ -1,11 +1,16 @@
 
 export const Hero = () => {
   return (
-    <section className="h-full w-full flex flex-row items-center justify-center">
-      <div className="w-1/2 h-full bg-red-400 flex flex-col justify-center">
-      <img />
+    <section className="h-full w-full flex flex-col md:flex-row items-center justify-center overflow-hidden">
+      <div className="w-full h-full flex flex-col justify-center items-start pl-6 pr-6 mt-28">
+      <h1 className="text-4xl text-left font-extrabold md:text-5xl">Find, book, rent a car-quick and super easy!</h1>
+      <p className="text-left mt-6 font-thin md:text-xl">Streamline your car rental experience with our effortless booking process.</p>
+      <button className="w-[110px] h-[35px] ring-1 rounded-full bg-primary-blue mt-6 text-white text-sm">Explore cars</button>
       </div>
-      <div className="w-1/2 h-full bg-blue-400 flex flex-col justify-center">Right Div</div>
+      <div className="w-full h-full flex flex-row md:flex-col justify-end items-end md:overflow-hidden relative">
+        <img src='/hero.png' className="w-[450px] sm:w-[550px] md:w-[650px]" />
+        <div className="bg-hero-bg bg-repeat-round h-[300px] w-[450px] md:w-[1000px] md:h-[600px] absolute -z-30 -right-20 -top-8 md:-top-14 md:left-10"></div>
+      </div>
     </section>
   )
 }
