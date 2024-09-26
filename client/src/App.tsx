@@ -6,7 +6,7 @@ import { Catalogue } from './components/Catalogue'
 function App() {
   
   return (
-    <main className='h-screen w-screen relative'>
+    <main className='h-screen w-screen relative overflow-x-hidden'>
       <Navbar />
       <Hero />
       <Catalogue />
